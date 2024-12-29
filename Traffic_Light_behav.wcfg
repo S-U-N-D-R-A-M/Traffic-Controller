@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Traffic_Light_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Traffic_Light" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="10999993991fs"></ZoomStartTime>
+      <ZoomEndTime time="11000001202fs"></ZoomEndTime>
+      <Cursor1Time time="11000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="15" />
+   <wvobject db_ref_id="1" fp_name="/Traffic_Light/waiting" type="logic">
+      <obj_property name="ElementShortName">waiting</obj_property>
+      <obj_property name="ObjectShortName">waiting</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Traffic_Light/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Traffic_Light/clear" type="logic">
+      <obj_property name="ElementShortName">clear</obj_property>
+      <obj_property name="ObjectShortName">clear</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Traffic_Light/traffic" type="array">
+      <obj_property name="ElementShortName">traffic[1:0]</obj_property>
+      <obj_property name="ObjectShortName">traffic[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Traffic_Light/crossing" type="array">
+      <obj_property name="ElementShortName">crossing[1:0]</obj_property>
+      <obj_property name="ObjectShortName">crossing[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Traffic_Light/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Traffic_Light/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Traffic_Light/green" type="array">
+      <obj_property name="ElementShortName">green[1:0]</obj_property>
+      <obj_property name="ObjectShortName">green[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Traffic_Light/yellow" type="array">
+      <obj_property name="ElementShortName">yellow[1:0]</obj_property>
+      <obj_property name="ObjectShortName">yellow[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Traffic_Light/red" type="array">
+      <obj_property name="ElementShortName">red[1:0]</obj_property>
+      <obj_property name="ObjectShortName">red[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Traffic_Light/s0" type="array">
+      <obj_property name="ElementShortName">s0[2:0]</obj_property>
+      <obj_property name="ObjectShortName">s0[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Traffic_Light/s1" type="array">
+      <obj_property name="ElementShortName">s1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">s1[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Traffic_Light/s2" type="array">
+      <obj_property name="ElementShortName">s2[2:0]</obj_property>
+      <obj_property name="ObjectShortName">s2[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Traffic_Light/s3" type="array">
+      <obj_property name="ElementShortName">s3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">s3[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Traffic_Light/s4" type="array">
+      <obj_property name="ElementShortName">s4[2:0]</obj_property>
+      <obj_property name="ObjectShortName">s4[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
